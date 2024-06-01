@@ -4,6 +4,7 @@
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{fancyhdr}
 
 \geometry{a4paper, margin=1in}
 
@@ -11,10 +12,34 @@
 \author{Your Name Here}
 \date{\today}
 
+% Set up fancy headers and footers
+\pagestyle{fancy}
+\fancyhf{} % Clear existing headers and footers
+\rhead{\thepage} % Right-aligned page number
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+
 \begin{document}
 	
-	\maketitle
+	\begin{titlepage}
+		
+		\centering
+		\vspace*{2cm}
+		\textbf{\LARGE Your Report Title Here}
+		\vspace{1cm}
+		
+
+		
+		\vfill
+		
+		\textbf{Your Name Here}
+		
+		\vspace{1cm}
+		\today
+	\end{titlepage}
 	
+	\begin{center}
+		\textbf{In the Name of Allah}
+	\end{center}
 	\begin{abstract}
 		Your abstract text goes here.
 	\end{abstract}
