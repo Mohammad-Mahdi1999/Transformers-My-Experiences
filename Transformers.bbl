@@ -1,9 +1,42 @@
 \begin{thebibliography}{1}
 
+\bibitem{Longformer}
+I.~Beltagy.
+\newblock Longformer: The long-document transformer.
+\newblock 2020.
+
+\bibitem{Transformer-XL}
+Z.~Dai.
+\newblock Transformer-xl: Attentive language models beyond a fixed-length
+  context.
+\newblock 2019.
+
+\bibitem{gpt}
+A.~Radford et~al.
+\newblock Improving language understanding by generative pre-training.
+
+\bibitem{bert}
+J.~Devlin et~al.
+\newblock Bert: Pretraining of deep bidirectional transformers for language
+  understanding.
+\newblock 2018.
+
+\bibitem{BART}
+M.~Lewis et~al.
+\newblock Bart: Denoising sequence-to-sequence pre-training for natural
+  language generation, translation, and comprehension.
+\newblock 2019.
+
 \bibitem{Multimodal_survey}
 Peng Xu.
 \newblock Multimodal learning with transformers: A survey.
 \newblock {\em IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE},
   45(10), 2023.
+
+\bibitem{XLNet}
+Z.~Yang.
+\newblock Xlnet: Generalized autoregressive pretraining for language
+  understanding.
+\newblock 2019.
 
 \end{thebibliography}
